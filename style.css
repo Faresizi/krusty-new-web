@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{ 
+    margin: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.navbar{
+background-color: rgb(131, 209, 224);
+ display: flex;
+ justify-content: space-between;
+ align-items: flex-start;
+ color: rgb(83, 61, 61);
+ opacity:0.70;
+}
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+    font-size: larger;
+    font-family: "Kanit", sans-serif;
+    padding: 20px;
+  
+}
+.h1{
+    font-family: "Kanit", sans-serif;
+    padding: 20px;
+}
+.fa-solid.fa-pizza-slice {
+    font-size: 80px;
+}
+.img{
+    display: flex;
+    justify-content: flex-start;
+    height: 300px;
+    gap: 20px;
+    padding: 30px;
+    border-radius: 30%;
+}
+.shop{
+    display: flex;
+    justify-content: space-around;
+  
+}
+.p{
+    display: flex;
+    padding: 80px;
+    gap: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px; 
+    color: aliceblue;   
+    
+}
+.p2{
+    display: flex;
+    padding: 80px;
+    gap: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px; 
+    color: aliceblue; 
+   background-color:black;
+   max-width: 40%;
+   max-height: 40%;
+   opacity: 0.7;
+}
+.video{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;align-items: center;
+}
+.title{
+    display: flex;
+    padding: 80px;
+    gap: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 70px; 
+    align-items: center;
+    justify-content: center;
+    color: azure;
+}
+.p3{
+    display: flex;
+    padding: 10px;
+    gap: 50px;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px; 
+    color: black;
+    background-color: cyan;
+    opacity: 0.7;
+    
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    flex-direction: row-reverse;
+    font-size: x-large;
+    padding: 30px;
+    opacity: 0.6;
+    
+
+}
+
+
+
